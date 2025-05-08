@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = ["@openzeppelin-contracts=lib/openzeppelin-contracts"]
+
+[etherscan]
+sepolia = { key = "JDSM45NIE986J2VIX9H179PFFAFHSK9KFE" }
+
+
+# ╰─❯ forge script script/Deploy.s.sol --rpc-url https://ethereum-sepolia-rpc.publicnode.com --broadcast --verify -vvvv
